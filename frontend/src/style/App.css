@@ -1,0 +1,42 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #268;
+  color: #fff; /* White text color */
+}
+
+/* Set the page dimensions as percentages */
+.page-container {
+  width: 90%;
+  min-height: 90vh;
+  margin: 0 auto;
+  color: #fff; /* White text color */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the blocks */
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #007bff; /* Blue border color */
+  padding: 1rem;
+  margin-top: 1.5rem; /* Add spacing between blocks */
+  background: linear-gradient(90deg, #111 55%, rgba(82, 141, 223, 0.7) 100%);
+  background-color: #111; /* Dark blue background color */
+  border-radius: 22px;
+  transition: background .3s ease;
+}
+
+  /* Hover effect for the links */
+ .block:hover {
+  background-color: rgb(60, 255, 0);
+}

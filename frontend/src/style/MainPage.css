@@ -1,0 +1,52 @@
+/* MainPage.css */
+
+  /* Style for the page container */
+  .page-container {
+    width: 90%;
+    min-height: 100vh;
+    color: #fff; /* White text color */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  /* Style for the links */
+  a {
+    display: block;
+    padding: 1rem;
+    color: #000; /* Black text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin-bottom: 1rem; /* Add spacing between links */
+  }
+  
+  /* Style for the block content */
+  .block-content {
+    flex: 1;
+  }
+  /* Style for block headings */
+  .block-content h2 {
+    font-size: 18px;
+    color: #fff; /* White text color */
+  }
+  
+  
+  .admin {
+    color: #c88;
+  }
+  /* Style for block descriptions */
+  .block-content p {
+    font-size: 14px;
+    color: #ccc; /* Light gray text color */
+  }
+  
+  /* Style for block images */
+  .block-image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1rem; /* Add spacing between content and image */
+  }

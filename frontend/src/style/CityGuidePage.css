@@ -1,0 +1,46 @@
+/* CityGuidePage.css */
+
+/* Style for the entire page */
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff; /* White text color */
+  
+  min-height: 100vh;
+  color: #fff; /* White text color */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Style for each guide block */
+.guide {
+  display:block;
+  width: 80vw;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guide p {
+  margin: 0;
+}
+
+/* Style for the select button */
+.select-button {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-button:hover {
+  background-color: #111; /* Darker background color on hover */
+}
